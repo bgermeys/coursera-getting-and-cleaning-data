@@ -11,7 +11,7 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 
 I refer to the README and features.txt files in the original dataset to learn more about the feature selection for this dataset.
 
-## Create an R script called run_analysis.R that does the following. 
+## Create a R script called run_analysis.R that does the following. 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
