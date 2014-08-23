@@ -20,11 +20,11 @@ I refer to the README and features.txt files in the original dataset to learn mo
 
 ## Steps to work on this course project
 
-1. Download the data source to the ```UCI HAR Dataset``` folder.
-2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function.
-3. Run ```"run_analysis.R"``` to generate a new file ```tiny_data.txt``` in the working directory.
+1. Download the data source to the UCI HAR Dataset folder.
+2. Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory.
+3. Run run_analysis.R to generate a new file tiny_data.txt in the working directory.
 
 ## Dependencies
 
-```run_analysis.R``` depends on the libraries ```reshape2``` and ```data.table```. 
+run_analysis.R depends on the libraries reshape2 and data.table. 
 
