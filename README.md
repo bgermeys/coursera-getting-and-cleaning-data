@@ -13,11 +13,11 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Steps to work on this course project
 
-1. Download the data source and put into a folder on your local drive. You'll have a ```UCI HAR Dataset``` folder.
+1. Download the data source and put into a folder on your local drive, the ```UCI HAR Dataset``` folder.
 2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function.
-3. Run ```source("run_analysis.R")```, this it will generate a new file ```tiny_data.txt``` in your working directory.
+3. Run ```"run_analysis.R"``` to generate a new file ```tiny_data.txt``` in your working directory.
 
 ## Dependencies
 
-```run_analysis.R``` file depends on ```reshape2``` and ```data.table```. 
+```run_analysis.R``` depends on the libraries ```reshape2``` and ```data.table```. 
 
