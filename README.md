@@ -4,7 +4,7 @@
 
 This repository contains my work for the course project for the Coursera course "Getting and Cleaning data" (https://class.coursera.org/getdata-006), part of the Data Science specialization. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
-You should create one R script called run_analysis.R that does the following. 
+## Create an R script called run_analysis.R that does the following. 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
