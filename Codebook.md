@@ -2,7 +2,7 @@
 
 This codebook describes the variables, the data, and any transformations to clean up the data and create a tidy dataset.
 
-The data source
+##The data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -12,7 +12,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-The data
+##The data
 
 The dataset includes the following files:
 
@@ -42,20 +42,23 @@ The following files are available for the train and test data. Their description
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-Transformation details
+## The transformation
 
-There are 5 parts:
+The transformation is executed by run_analysis.R script.
 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive activity names.
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+There are 5 parts in it:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive activity names.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 How run_analysis.R implements the above steps:
 
-Require reshapre2 and data.table librareis.
-Load both test and train data
-Load the features and activity labels.
-Extract the mean and standard deviation column names and data.
-Process the data. There are two parts processing test and train data respectively.
-Merge data set.
+1. Require reshapre2 and data.table librareis.
+2. Load both test and train data
+3. Load the features and activity labels.
+4. Extract the mean and standard deviation column names and data.
+5. Process the data. There are two parts processing test and train data respectively.
+6. Merge data set and export.
