@@ -7,7 +7,8 @@ This repository contains my work for the course project for the Coursera course 
 ##The data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
 I refer to the README and features.txt files in the original dataset to learn more about the feature selection for this dataset.
 
 ## Create an R script called run_analysis.R that does the following. 
