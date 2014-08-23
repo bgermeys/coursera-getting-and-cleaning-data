@@ -1,6 +1,6 @@
 #CodeBook
 
-This codebook describes the variables, the data, and any transformations to clean up the data and create a tidy dataset.
+This codebook describes the variables, the data, and transformations to clean up the data and create a tidy dataset.
 
 ##The data source
 
