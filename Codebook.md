@@ -6,6 +6,7 @@
 * `activity` - The label of the activity performed when the corresponding measurements were taken
 
 ## Extracted Feature Fields
+This dataset includes the mean and standard deviation variables from the HAR study (those variables with "mean" or "std" in their name).
 
 * `tBodyAcc-mean()-X` (column `1`)
 * `tBodyAcc-mean()-Y` (column `2`)
