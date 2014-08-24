@@ -26,5 +26,5 @@ I refer to the README and features.txt files in the original dataset to learn mo
 
 ## Dependencies
 
-run_analysis.R depends on the libraries reshape2 and data.table. 
+run_analysis.R makes use of the library reshape2. 
 
