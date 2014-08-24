@@ -28,3 +28,12 @@ I refer to the README and features.txt files in the original dataset to learn mo
 
 run_analysis.R makes use of the library reshape2. 
 
+## Evaluation
+
+Sukanya Vinod· 3 days ago 
+'''Does that mean we have 180 rows and 80 somewhat columns? (Ex: time_Body_Accelerometer_Mean_Xaxis,time_Body_Accelerometer_Mean_Yaxis, etc along with activity and subject) in the columns?'''
+
+David Hood COMMUNITY TA· 3 days ago 
+''' That sounds like a tidy form (there are several, but that sounds like one of them).'''
+
+https://class.coursera.org/getdata-006/forum/thread?thread_id=236
