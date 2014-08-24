@@ -28,3 +28,6 @@ I refer to the README and features.txt files in the original dataset to learn mo
 
 run_analysis.R makes use of the library reshape2. 
 
+## Evaluation
+
+This is work-in-progress. The resulting dataset is imo still not tidy enough, containing 81 variables.
